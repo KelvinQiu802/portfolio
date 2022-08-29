@@ -7,7 +7,6 @@ const Home = () => {
       <Head>
         <title>Kelvin Qiu</title>
       </Head>
-      Hello
     </div>
   );
 };
