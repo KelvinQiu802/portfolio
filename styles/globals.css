@@ -19,14 +19,27 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'iconfont';
+  src: url('/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Light Mode */
 .layout[color-mode='light'] {
   --surface1: #e6e6e6;
   --surface2: #f2f2f2;
   --surface3: #ffffff;
   --element1: #555555;
-  --element2: #222222;
-  --element3: #333333;
+  --element2: #333333;
+  --element3: #222222;
   --elementInverse: #eee;
   --primary: #01408e;
   --secondary: #3c5d5c;

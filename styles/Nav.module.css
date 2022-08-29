@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  padding: 25px 45px;
+  padding: 25px 60px;
   display: flex;
   align-items: center;
   color: var(--element1);
@@ -14,6 +14,25 @@
 
 .nav {
   display: flex;
-  gap: 17px;
-  font-size: 15px;
+  align-items: center;
+  gap: 22px;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: var(--element3);
+}
+
+.link {
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--element3);
 }

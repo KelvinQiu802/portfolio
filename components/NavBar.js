@@ -7,13 +7,22 @@ const NavBar = () => {
       <span className={styles.signature}>Kelvin</span>
       <nav className={styles.nav}>
         <Link href='/'>
-          <a>Blog</a>
+          <a className={styles.link}>Blog</a>
         </Link>
         <Link href='/'>
-          <a>Projects</a>
+          <a className={styles.link}>Projects</a>
         </Link>
         <Link href='/'>
-          <a>Videos</a>
+          <a className={styles.link}>Videos</a>
+        </Link>
+        <Link href='/'>
+          <span className={`iconfont ${styles.icon}`}>&#xe885;</span>
+        </Link>
+        <Link href='/'>
+          <span className={`iconfont ${styles.icon}`}>&#xe66d;</span>
+        </Link>
+        <Link href='/'>
+          <span className={`iconfont ${styles.icon}`}>&#xe635;</span>
         </Link>
       </nav>
     </div>
