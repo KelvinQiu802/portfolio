@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  padding: 25px 45px;
+  display: flex;
+  align-items: center;
+  color: var(--element1);
+}
+
+.signature {
+  font-size: 25px;
+  font-family: 'Cedarville Cursive', sans-serif;
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 17px;
+  font-size: 15px;
+}
