@@ -36,3 +36,29 @@
 .link:hover {
   color: var(--element3);
 }
+
+.mobile {
+  display: none;
+}
+
+.laptop {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+
+  .laptop {
+    display: none;
+  }
+
+  .container {
+    padding: 25px;
+  }
+
+  .nav {
+    gap: 13px;
+  }
+}
