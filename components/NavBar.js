@@ -35,15 +35,21 @@ const NavBar = () => {
         </Link>
 
         {/* Other Icon */}
-        <Link href='/'>
-          <span className={`iconfont ${styles.icon}`}>&#xe885;</span>
-        </Link>
-        <Link href='/'>
-          <span className={`iconfont ${styles.icon}`}>&#xe66d;</span>
-        </Link>
-        <Link href='/'>
-          <span className={`iconfont ${styles.icon}`}>&#xe635;</span>
-        </Link>
+        <a
+          href='https://github.com/kelvinqiu802'
+          target='_blank'
+          className={`iconfont ${styles.icon}`}
+        >
+          &#xe885;
+        </a>
+        <a
+          href='https://space.bilibili.com/38563775'
+          target='_blank'
+          className={`iconfont ${styles.icon}`}
+        >
+          &#xe66d;
+        </a>
+        <span className={`iconfont ${styles.icon}`}>&#xe635;</span>
       </nav>
     </div>
   );
