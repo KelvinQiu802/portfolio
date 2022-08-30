@@ -1,5 +1,6 @@
 import utilStyls from '../../styles/util.module.css';
 import styls from '../../styles/Content.module.css';
+import Divider from '../Divider';
 
 const Content = () => {
   return (
@@ -23,6 +24,7 @@ const Content = () => {
           cats. 🐈
         </p>
       </article>
+      <Divider />
     </div>
   );
 };
