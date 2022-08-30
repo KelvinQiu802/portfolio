@@ -32,3 +32,18 @@
 .out {
   opacity: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 31px;
+  }
+
+  .tag {
+    font-size: 13px;
+    max-width: 140px;
+  }
+
+  .description {
+    bottom: 10px;
+  }
+}

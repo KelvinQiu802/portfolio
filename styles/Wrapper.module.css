@@ -4,3 +4,9 @@
   margin-top: 50px;
   padding: 0 40px;
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin-top: 2px;
+  }
+}
