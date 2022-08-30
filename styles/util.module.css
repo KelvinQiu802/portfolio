@@ -1,0 +1,9 @@
+.plain {
+  font-size: 16px;
+  color: var(--element1);
+}
+
+.stress {
+  font-size: 16px;
+  color: var(--element3);
+}
