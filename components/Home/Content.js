@@ -8,7 +8,7 @@ const Content = () => {
     <div className={`${styls.content} ${utilStyles.plain}`}>
       <article>
         <p>
-          Hi, I'm Kelvin, a sophomore at{' '}
+          Hi, I&apos;m Kelvin, a sophomore at{' '}
           <span className={utilStyles.stress}>
             Beijing University of Technology
           </span>
