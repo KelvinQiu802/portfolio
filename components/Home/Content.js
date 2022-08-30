@@ -1,36 +1,47 @@
-import utilStyls from '../../styles/util.module.css';
+import utilStyles from '../../styles/util.module.css';
 import styls from '../../styles/Content.module.css';
 import Divider from '../Divider';
+import Link from 'next/link';
 
 const Content = () => {
   return (
-    <div className={`${styls.content} ${utilStyls.plain}`}>
+    <div className={`${styls.content} ${utilStyles.plain}`}>
       <article>
         <p>
           Hi, I'm Kelvin, a sophomore at{' '}
-          <span className={utilStyls.stress}>
+          <span className={utilStyles.stress}>
             Beijing University of Technology
           </span>
           , majoring in{' '}
-          <span className={utilStyls.stress}>Software Engineering</span>.{' '}
+          <span className={utilStyles.stress}>Software Engineering</span>.{' '}
         </p>
         <p>
           The current focus is on the{' '}
-          <span className={utilStyls.stress}>front-end</span>, based on{' '}
-          <span className={utilStyls.stress}>React</span> ecosystem.
+          <span className={utilStyles.stress}>front-end</span>, based on{' '}
+          <span className={utilStyles.stress}>React</span> ecosystem.
         </p>
         <p>
-          I love <span className={utilStyls.stress}>cats</span>, but allergic to
-          cats. 🐈
+          I love <span className={utilStyles.stress}>cats</span>, but allergic
+          to cats. 🐈
         </p>
       </article>
       <Divider />
       <article>
         <p>
           I enjoy programming. Playing around with code, discovering new tech,
-          and building fun and useful projects are my favorite. On the projects
-          page, I will show you all of my projects with a Github repository and
-          an online demo.{' '}
+          and building fun and useful projects are my favorite. On the{' '}
+          <Link href='/'>
+            <a className={utilStyles.textLink}>projects</a>
+          </Link>{' '}
+          projects page, I will show you all of my projects with a{' '}
+          <a
+            href='https://github.com/kelvinqiu802'
+            className={utilStyles.textLink}
+            target='_blank'
+          >
+            Github
+          </a>{' '}
+          repository and an online demo.{' '}
         </p>
         <p>Some of my projects: Battleship | mini-react | Kanban | YourCat</p>
       </article>
@@ -39,13 +50,50 @@ const Content = () => {
         <p>
           In my spare time, I like creating videos about programming. Not just
           tutorial, but also share some opinions and experience. You can find me
-          on 哔哩哔哩 by searching Dragonfly_Y or clicking this link.
+          on <span className={utilStyles.stress}>哔哩哔哩</span> by searching
+          Dragonfly_Y or clicking{' '}
+          <a
+            href='https://space.bilibili.com/38563775'
+            target='_blank'
+            className={utilStyles.textLink}
+          >
+            this link
+          </a>
+          .
         </p>
       </article>
       <Divider />
       <article>
-        <p>Find me on Github and 哔哩哔哩</p>
-        <p>Mail me at kelvinqiu802@outlook.com</p>
+        <p>
+          Find me on{' '}
+          <a
+            href='https://github.com/kelvinqiu802'
+            target='_blank'
+            className={utilStyles.textLink}
+          >
+            Github
+          </a>{' '}
+          and{' '}
+          <a
+            href='https://space.bilibili.com/38563775'
+            target='_blank'
+            className={utilStyles.textLink}
+          >
+            哔哩哔哩
+          </a>
+          .
+        </p>
+        <p>
+          Mail me at{' '}
+          <a
+            href='mailto:kelvinqiu802@outlook.com'
+            target='_blank'
+            className={utilStyles.textLink}
+          >
+            kelvinqiu802@outlook.com
+          </a>
+          .
+        </p>
       </article>
     </div>
   );
