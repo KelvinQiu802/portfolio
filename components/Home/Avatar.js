@@ -1,5 +1,6 @@
 import styles from '../../styles/Avatar.module.css';
 import React from 'react';
+import Image from 'next/image';
 
 const Avatar = () => {
   const [index, setIndex] = React.useState(0);
@@ -19,7 +20,13 @@ const Avatar = () => {
 
   return (
     <div className={styles.container}>
-      <img src='/avatar.jpg' alt='Avatar' className={styles.avatar} />
+      <Image
+        src='/avatar.jpg'
+        width={85}
+        height={85}
+        priority
+        className={styles.avatar}
+      />
       <div className={styles.description}>
         <h1 className={styles.name} ref={ref} onTransitionEnd={handleEnd}>
           {words[index]}
