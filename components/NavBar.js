@@ -40,6 +40,7 @@ const NavBar = () => {
         <a
           href='https://github.com/kelvinqiu802'
           rel='noreferrer'
+          target='_blank'
           className={`iconfont ${styles.icon}`}
         >
           &#xe885;
@@ -47,6 +48,7 @@ const NavBar = () => {
         <a
           href='https://space.bilibili.com/38563775'
           rel='noreferrer'
+          target='_blank'
           className={`iconfont ${styles.icon}`}
         >
           &#xe66d;

@@ -38,6 +38,7 @@ const Content = () => {
             href='https://github.com/kelvinqiu802'
             className={utilStyles.textLink}
             rel='noreferrer'
+            target='_blank'
           >
             Github
           </a>{' '}
@@ -55,6 +56,7 @@ const Content = () => {
           <a
             href='https://space.bilibili.com/38563775'
             rel='noreferrer'
+            target='_blank'
             className={utilStyles.textLink}
           >
             this link
@@ -69,6 +71,7 @@ const Content = () => {
           <a
             href='https://github.com/kelvinqiu802'
             rel='noreferrer'
+            target='_blank'
             className={utilStyles.textLink}
           >
             Github
@@ -77,6 +80,7 @@ const Content = () => {
           <a
             href='https://space.bilibili.com/38563775'
             rel='noreferrer'
+            target='_blank'
             className={utilStyles.textLink}
           >
             哔哩哔哩
@@ -88,6 +92,7 @@ const Content = () => {
           <a
             href='mailto:kelvinqiu802@outlook.com'
             rel='noreferrer'
+            target='_blank'
             className={utilStyles.textLink}
           >
             kelvinqiu802@outlook.com
