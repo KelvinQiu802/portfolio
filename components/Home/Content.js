@@ -37,7 +37,7 @@ const Content = () => {
           <a
             href='https://github.com/kelvinqiu802'
             className={utilStyles.textLink}
-            target='_blank'
+            rel='noreferrer'
           >
             Github
           </a>{' '}
@@ -54,7 +54,7 @@ const Content = () => {
           Dragonfly_Y or clicking{' '}
           <a
             href='https://space.bilibili.com/38563775'
-            target='_blank'
+            rel='noreferrer'
             className={utilStyles.textLink}
           >
             this link
@@ -68,7 +68,7 @@ const Content = () => {
           Find me on{' '}
           <a
             href='https://github.com/kelvinqiu802'
-            target='_blank'
+            rel='noreferrer'
             className={utilStyles.textLink}
           >
             Github
@@ -76,7 +76,7 @@ const Content = () => {
           and{' '}
           <a
             href='https://space.bilibili.com/38563775'
-            target='_blank'
+            rel='noreferrer'
             className={utilStyles.textLink}
           >
             哔哩哔哩
@@ -87,7 +87,7 @@ const Content = () => {
           Mail me at{' '}
           <a
             href='mailto:kelvinqiu802@outlook.com'
-            target='_blank'
+            rel='noreferrer'
             className={utilStyles.textLink}
           >
             kelvinqiu802@outlook.com

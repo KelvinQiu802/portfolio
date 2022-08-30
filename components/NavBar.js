@@ -39,14 +39,14 @@ const NavBar = () => {
         {/* Other Icon */}
         <a
           href='https://github.com/kelvinqiu802'
-          target='_blank'
+          rel='noreferrer'
           className={`iconfont ${styles.icon}`}
         >
           &#xe885;
         </a>
         <a
           href='https://space.bilibili.com/38563775'
-          target='_blank'
+          rel='noreferrer'
           className={`iconfont ${styles.icon}`}
         >
           &#xe66d;
