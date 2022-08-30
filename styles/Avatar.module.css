@@ -46,4 +46,8 @@
   .description {
     bottom: 10px;
   }
+
+  .container {
+    gap: 15px;
+  }
 }
