@@ -25,6 +25,28 @@ const Content = () => {
         </p>
       </article>
       <Divider />
+      <article>
+        <p>
+          I enjoy programming. Playing around with code, discovering new tech,
+          and building fun and useful projects are my favorite. On the projects
+          page, I will show you all of my projects with a Github repository and
+          an online demo.{' '}
+        </p>
+        <p>Some of my projects: Battleship | mini-react | Kanban | YourCat</p>
+      </article>
+      <Divider />
+      <article>
+        <p>
+          In my spare time, I like creating videos about programming. Not just
+          tutorial, but also share some opinions and experience. You can find me
+          on 哔哩哔哩 by searching Dragonfly_Y or clicking this link.
+        </p>
+      </article>
+      <Divider />
+      <article>
+        <p>Find me on Github and 哔哩哔哩</p>
+        <p>Mail me at kelvinqiu802@outlook.com</p>
+      </article>
     </div>
   );
 };
