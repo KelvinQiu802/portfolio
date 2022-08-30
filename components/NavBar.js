@@ -4,7 +4,9 @@ import Link from 'next/link';
 const NavBar = () => {
   return (
     <div className={styles.container}>
-      <span className={styles.signature}>Kelvin</span>
+      <Link href='/'>
+        <a className={styles.signature}>Kelvin</a>
+      </Link>
       <nav className={styles.nav}>
         {/* Mobile Icon */}
         <Link href='/'>
