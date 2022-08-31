@@ -6,7 +6,7 @@ const Blog = ({ posts }) => {
   return (
     <div>
       <Head>
-        <title>Kelvin's Blog</title>
+        <title>Kelvin&apos;s Blog</title>
       </Head>
       <Content posts={posts} />
     </div>
