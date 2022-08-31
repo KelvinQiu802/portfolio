@@ -44,6 +44,8 @@ a {
   --element1: #555555;
   --element2: #333333;
   --element3: #000000;
+  --element4: #aaaaaa;
+  --element5: #888888;
   --elementInverse: #eee;
   --primary: #01408e;
   --secondary: #3c5d5c;
@@ -58,6 +60,8 @@ a {
   --element1: #eeeeee;
   --element2: #dddddd;
   --element3: #cccccc;
+  --element4: #aaaaaa;
+  --element5: #888888;
   --elementInverse: #111;
   --primary: #8fceff;
   --secondary: #72faca;
