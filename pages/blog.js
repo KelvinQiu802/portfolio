@@ -1,4 +1,4 @@
-import Content from '../components/Blog/content';
+import Content from '../components/Blog/Content';
 import Head from 'next/head';
 import { getSortedPostData } from '../utils/postTools';
 
