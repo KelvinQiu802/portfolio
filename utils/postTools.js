@@ -27,6 +27,6 @@ export const getSortedPostData = async () => {
   return allPostsData.sort(({ date: a }, { date: b }) => {
     const timeA = new Date(a);
     const timeB = new Date(b);
-    return timeA.getTime() - timeB.getTime();
+    return timeB.getTime() - timeA.getTime();
   });
 };
