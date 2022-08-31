@@ -1,7 +1,7 @@
 import Wrapper from '../Wrapper';
 import Post from './Post';
 
-const Content = ({ posts }) => {
+const content = ({ posts }) => {
   return (
     <Wrapper>
       {posts.map((post) => (
@@ -11,4 +11,4 @@ const Content = ({ posts }) => {
   );
 };
 
-export default Content;
+export default content;
