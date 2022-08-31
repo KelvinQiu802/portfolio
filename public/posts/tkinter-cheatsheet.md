@@ -1,6 +1,6 @@
 ---
 title: Tkinter内置属性及方法速查表
-date: 2022-03-2 22:35:23
+date: 2022-03-2
 tags: [Python, Tkinter, GUI]
 cover: "https://imgbed.codingkelvin.fun/uPic/kXXYdu.png"
 top_img: false

@@ -1,6 +1,6 @@
 ---
 title: 提问的智慧[重点加粗][转自GitHub]
-date: 2022-02-23 08:47:12
+date: 2022-02-23
 tags: [文章分享]
 cover: "https://imgbed.codingkelvin.fun/uPic/question.jpeg"
 top_img: false

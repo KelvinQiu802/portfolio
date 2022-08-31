@@ -1,6 +1,6 @@
 ---
 title: Git基础教程1 -【本地版本控制】
-date: 2022-03-18 8:02:02
+date: 2022-03-18
 tags: [Git, 文章分享]
 cover: "https://imgbed.codingkelvin.fun/uPic/Uq3Zrg.jpg"
 top_img: false

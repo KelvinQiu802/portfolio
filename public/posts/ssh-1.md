@@ -1,6 +1,6 @@
 ---
 title: SSH基础知识1 -【登录到远程服务器】
-date: 2022-03-22 15:47:53
+date: 2022-03-22
 tags: [SSH]
 cover: "https://imgbed.codingkelvin.fun/uPic/iAFkej (1).png"
 top_img: false

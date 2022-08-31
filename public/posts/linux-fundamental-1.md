@@ -1,6 +1,6 @@
 ---
 title: Linux 基础命令1•基本文件和目录操作
-date: 2022-03-13 23:08:43
+date: 2022-03-13
 tags: [Linux]
 cover: "https://imgbed.codingkelvin.fun/uPic/ArVasg.png"
 top_img: false

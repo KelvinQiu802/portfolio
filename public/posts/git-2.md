@@ -1,6 +1,6 @@
 ---
 title: Git基础教程2 -【查缺补漏】
-date: 2022-04-11 23:50:12
+date: 2022-04-11
 tags: [Git, 文章分享]
 cover: "https://imgbed.codingkelvin.fun/uPic/Uq3Zrg.jpg"
 top_img: false

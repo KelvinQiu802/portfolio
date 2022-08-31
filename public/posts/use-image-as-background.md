@@ -1,6 +1,6 @@
 ---
 title: 将图片或相册作为网页背景
-date: 2022-01-15 22:47:23
+date: 2022-01-15
 tags: [前端, 教程, 背景]
 cover: "https://imgbed.codingkelvin.fun/uPic/008i3skNly1gyfse876oyj31k70u0tm4.jpg"
 top_img: false

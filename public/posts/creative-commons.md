@@ -1,6 +1,6 @@
 ---
 title: CreativeCommons知识共享协议
-date: 2022-02-17 19:07:22
+date: 2022-02-17
 tags: [文章分享, 开源]
 cover: "https://imgbed.codingkelvin.fun/uPic/heart.black.png"
 top_img: false

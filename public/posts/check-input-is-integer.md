@@ -1,6 +1,6 @@
 ---
 title: 由Number引发的思考：如何判断用户输入的值是否为纯数字？
-date: 2022-06-23 16:38:52
+date: 2022-06-23
 tags: [Web开发, JavaScript, 文章分享]
 cover: "https://imgbed.codingkelvin.fun/uPic/fH8XrP.png"
 top_img: false

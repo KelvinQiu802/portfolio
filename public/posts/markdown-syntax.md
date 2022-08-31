@@ -1,6 +1,6 @@
 ---
 title: 删掉你的Word! Markdown语法快查
-date: 2022-02-25 12:07:36
+date: 2022-02-25
 tags: [文章分享]
 cover: "https://imgbed.codingkelvin.fun/uPic/c9gF3x.png"
 top_img: false

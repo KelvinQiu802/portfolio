@@ -1,6 +1,6 @@
 ---
 title: Matplotlib数据可视化——2.绘制各类统计图
-date: 2022-01-22 16:05:43
+date: 2022-01-22
 tags: [Python, matplotlib, 可视化]
 cover: "https://imgbed.codingkelvin.fun/uPic/ZbL8Y4.png"
 top_img: false

@@ -1,6 +1,6 @@
 ---
 title: JavaScript-[事件]-学习与总结
-date: 2022-05-3 23:53:12
+date: 2022-05-3
 tags: [JavaScript, Web开发]
 cover: "https://imgbed.codingkelvin.fun/uPic/qSnOf3.png"
 top_img: false

@@ -1,6 +1,6 @@
 ---
 title: 我肝出了一个方便实用的导航网站！
-date: 2022-01-17 23:50:29
+date: 2022-01-17
 tags: [前端，导航，网站]
 cover: "https://imgbed.codingkelvin.fun/uPic/008dMV7uly1gyh4m4bkh7j30h107yjsh.jpeg"
 top_img: false

@@ -1,6 +1,6 @@
 ---
 title: Matplotlib数据可视化——1.绘图基础
-date: 2022-01-19 22:09:34
+date: 2022-01-19
 tags: [Python, matplotlib, 可视化]
 cover: "https://imgbed.codingkelvin.fun/uPic/ZbL8Y4.png"
 top_img: false

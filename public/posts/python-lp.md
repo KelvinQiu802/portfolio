@@ -1,6 +1,6 @@
 ---
 title: Python实现线性规划模型(LP)
-date: 2022-01-17 21:44:29
+date: 2022-01-17
 tags: [Python, 建模, 背景]
 cover: "https://imgbed.codingkelvin.fun/uPic/008i3skNly1gyh0oz02swj30p70mvmzn.jpg"
 top_img: false

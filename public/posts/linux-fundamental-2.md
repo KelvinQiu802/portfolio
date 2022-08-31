@@ -1,6 +1,6 @@
 ---
 title: Linux 基础命令2•用户/组和权限管理
-date: 2022-03-29 23:53:12
+date: 2022-03-29
 tags: [Linux]
 cover: "https://imgbed.codingkelvin.fun/uPic/IJTh2M.jpg"
 top_img: false
