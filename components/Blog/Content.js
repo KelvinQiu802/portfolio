@@ -1,14 +1,12 @@
 import Wrapper from '../Wrapper';
 import Post from './Post';
 
-const Content = () => {
+const Content = ({ posts }) => {
   return (
     <Wrapper>
-      <Post title='Linux 基础命令1•基本文件和目录操作' date='Nov 30, 2021' />
-      <Post title='Linux 基础命令1•基本文件和目录操作' date='Nov 30, 2021' />
-      <Post title='Linux 基础命令1•基本文件和目录操作' date='Nov 30, 2021' />
-      <Post title='Linux 基础命令1•基本文件和目录操作' date='Nov 30, 2021' />
-      <Post title='Linux 基础命令1•基本文件和目录操作' date='Nov 30, 2021' />
+      {posts.map((post) => (
+        <Post title={post.title} date={post.date} id={post.id} key={post.id} />
+      ))}
     </Wrapper>
   );
 };
