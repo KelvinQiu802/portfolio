@@ -9,6 +9,7 @@ const Post = ({ data }) => {
         <title>{data.title}</title>
       </Head>
       {data.title}
+      <div dangerouslySetInnerHTML={{ __html: data.htmlContent }} />
     </Wrapper>
   );
 };
