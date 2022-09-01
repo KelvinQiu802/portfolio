@@ -1,13 +1,15 @@
-.title {
-  font-size: 35px;
-  font-weight: 500;
-  color: var(--element2);
-  margin-top: 0;
+.year {
+  font-size: 30px;
+  color: var(--element4);
+  text-align: start;
+  margin-bottom: 15px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 600px) {
-  .title {
-    font-size: 30px;
-    margin-bottom: 20px;
+  .year {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 5px;
   }
 }
