@@ -29,13 +29,6 @@ categories: [文章分享]
 
 比较著名的集中式版本控制工具有CVS，SVN…
 
-```mermaid
-flowchart TD
-S[(Server)] <--> A((User A))
-S[(Server)] <--> B((User B))
-S[(Server)] <--> C((User C))
-S[(Server)] <--> D((User D))
-```
 
 > - **优势:**
 > - 拥有一个`集中管理的服务器`
