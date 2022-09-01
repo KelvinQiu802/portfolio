@@ -22,7 +22,7 @@ d.grid(row=0, column=2, rowspan=2)
 
 # Window
 
-``` python
+```python
 window = tk.Tk()
 window.title()
 window.geometry()
