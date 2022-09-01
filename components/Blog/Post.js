@@ -1,9 +1,9 @@
 import styles from '../../styles/Post.module.css';
 import Link from 'next/link';
 
-const Post = ({ title, date }) => {
+const Post = ({ title, date, id }) => {
   return (
-    <Link href='/blog'>
+    <Link href={`/blog/${id}`}>
       <div className={styles.post}>
         <p className={styles.title}>{title}</p>
         <p className={styles.date}>{date}</p>
