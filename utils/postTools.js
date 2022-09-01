@@ -3,6 +3,13 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { format } from 'date-fns';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeHighlight from 'rehype-highlight';
+import rehypeDocument from 'rehype-document';
+import rehypeFormat from 'rehype-format';
+import rehypeStringify from 'rehype-stringify';
 
 export const getSortedPostData = async () => {
   const postPath = path.join(process.cwd(), 'public', 'posts');
@@ -44,5 +51,26 @@ export const getAllIds = async () => {
 };
 
 export const getPostById = async (id) => {
-  return id;
+  const postPath = path.join(process.cwd(), 'public', 'posts', `${id}.md`);
+  const mdContent = await fsPromises.readFile(path.join(postPath), {
+    encoding: 'utf-8',
+  });
+  // use gray-matter to parse the post metadata section
+  const matterData = matter(mdContent);
+  // md --> html and highlight codeblock
+  const content = await unified()
+    .use(remarkParse)
+    .use(remarkRehype)
+    .use(rehypeHighlight)
+    .use(rehypeDocument)
+    .use(rehypeFormat)
+    .use(rehypeStringify)
+    .process(matterData.content);
+  const htmlContent = content.value;
+  return {
+    id,
+    date: format(matterData.data.date, 'LLLL d, yyyy'),
+    title: matterData.data.title,
+    htmlContent,
+  };
 };

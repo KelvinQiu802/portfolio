@@ -1,8 +1,16 @@
+import Head from 'next/head';
 import Wrapper from '../../components/Wrapper';
 import { getAllIds, getPostById } from '../../utils/postTools';
 
-const Post = ({ content }) => {
-  return <Wrapper>{content}</Wrapper>;
+const Post = ({ data }) => {
+  return (
+    <Wrapper>
+      <Head>
+        <title>{data.title}</title>
+      </Head>
+      {data.title}
+    </Wrapper>
+  );
 };
 
 export default Post;
@@ -16,10 +24,11 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const content = await getPostById(params.id);
+  const data = await getPostById(params.id);
+  console.log(data);
   return {
     props: {
-      content,
+      data,
     },
   };
 };
