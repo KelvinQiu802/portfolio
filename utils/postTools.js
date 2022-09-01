@@ -30,3 +30,19 @@ export const getSortedPostData = async () => {
     return timeB.getTime() - timeA.getTime();
   });
 };
+
+export const getAllIds = async () => {
+  const postPath = path.join(process.cwd(), 'public', 'posts');
+  const postNames = await fsPromises.readdir(postPath);
+  return postNames
+    .filter((name) => name != '.DS_Store')
+    .map((name) => ({
+      params: {
+        id: name.replace('.md', ''),
+      },
+    }));
+};
+
+export const getPostById = async (id) => {
+  return id;
+};
