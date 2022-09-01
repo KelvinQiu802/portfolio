@@ -6,9 +6,16 @@ const content = ({ posts }) => {
   return (
     <Wrapper>
       <p className={styles.year}>2022</p>
-      {posts.map((post) => (
-        <Post title={post.title} date={post.date} id={post.id} key={post.id} />
-      ))}
+      {posts
+        .filter((post) => post.date.includes('2022'))
+        .map((post) => (
+          <Post
+            title={post.title}
+            date={post.date}
+            id={post.id}
+            key={post.id}
+          />
+        ))}
     </Wrapper>
   );
 };
