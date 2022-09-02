@@ -32,6 +32,9 @@ const NavBar = ({ setMode }) => {
         </Link>
 
         {/* Laptop Link */}
+        <Link href='/'>
+          <a className={`${styles.link} ${styles.laptop}`}>Me</a>
+        </Link>
         <Link href='/blog'>
           <a className={`${styles.link} ${styles.laptop}`}>Blog</a>
         </Link>
