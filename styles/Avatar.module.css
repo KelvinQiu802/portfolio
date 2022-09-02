@@ -41,6 +41,7 @@
   .tag {
     font-size: 13px;
     max-width: 140px;
+    margin-top: 5px;
   }
 
   .description {
@@ -48,6 +49,7 @@
   }
 
   .container {
-    gap: 15px;
+    gap: 10px;
+    margin-left: 5px;
   }
 }
