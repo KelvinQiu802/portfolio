@@ -10,6 +10,7 @@ import rehypeHighlight from 'rehype-highlight';
 import rehypeDocument from 'rehype-document';
 import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
+import remarkGfm from 'remark-gfm';
 
 export const getSortedPostData = async () => {
   const postPath = path.join(process.cwd(), 'public', 'posts');
@@ -60,6 +61,7 @@ export const getPostById = async (id) => {
   // md --> html and highlight codeblock
   const content = await unified()
     .use(remarkParse)
+    .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypeHighlight)
     .use(rehypeDocument)
