@@ -4,6 +4,8 @@ import Link from 'next/link';
 const NavBar = ({ setMode }) => {
   const handleClick = () => {
     setMode((prev) => (prev === 'light' ? 'dark' : 'light'));
+    // toggle HTML theme
+    document.documentElement.classList.toggle('dark');
   };
 
   return (

@@ -37,14 +37,11 @@ a {
 }
 
 html {
-  width: 100vw;
-  height: 100vh;
-  background-color: #000000;
-  /* background-color: var(--surface3); */
+  transition: background-color 0.2s, color 0.2s;
 }
 
-.layout {
-  transition: background-color 0.2s, color 0.2s;
+html.dark {
+  background-color: #121212;
 }
 
 /* Light Mode */
