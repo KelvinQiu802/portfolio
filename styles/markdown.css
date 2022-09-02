@@ -1,6 +1,7 @@
 /* Markdown Format CSS */
 .md p,
-.md ul {
+.md ul,
+.md ol {
   font-size: 16px;
   line-height: 27px;
   color: var(--element1);
@@ -47,8 +48,13 @@
 }
 
 .md code {
-  background-color: var(--element7);
+  background-color: var(--hljs0);
   padding: 3px;
-  margin: 0 3px;
+  margin: 0 2px;
   border-radius: 5px;
+}
+
+.md p img {
+  max-width: 100%;
+  margin: 5px 0;
 }
