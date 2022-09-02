@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Wrapper from '../../components/Wrapper';
 import { getAllIds, getPostById } from '../../utils/postTools';
 import styles from '../../styles/Markdown.module.css';
+import Cd from '../../components/Cd';
 
 const Post = ({ data }) => {
   return (
@@ -14,6 +15,7 @@ const Post = ({ data }) => {
       <article className='md'>
         <div dangerouslySetInnerHTML={{ __html: data.htmlContent }} />
       </article>
+      <Cd />
     </Wrapper>
   );
 };
