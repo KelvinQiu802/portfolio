@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Wrapper from '../../components/Wrapper';
 import { getAllIds, getPostById } from '../../utils/postTools';
+import styles from '../../styles/Markdown.module.css';
 
 const Post = ({ data }) => {
   return (
@@ -8,8 +9,11 @@ const Post = ({ data }) => {
       <Head>
         <title>{data.title}</title>
       </Head>
-      {data.title}
-      <div dangerouslySetInnerHTML={{ __html: data.htmlContent }} />
+      <p className={styles.title}>{data.title}</p>
+      <p className={styles.date}>{data.date}</p>
+      <article className='md'>
+        <div dangerouslySetInnerHTML={{ __html: data.htmlContent }} />
+      </article>
     </Wrapper>
   );
 };

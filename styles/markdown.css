@@ -1,0 +1,54 @@
+/* Markdown Format CSS */
+.md p,
+.md ul {
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--element1);
+}
+
+.md li {
+  margin: 5px 0;
+}
+
+.md h1 {
+  font-size: 24px;
+}
+
+.md h2 {
+  font-size: 22px;
+}
+
+.md h3 {
+  font-size: 20px;
+}
+
+.md h4 {
+  font-size: 18px;
+}
+
+.md h5,
+.md h6 {
+  font-size: 16px;
+}
+
+.md h1,
+.md h2,
+.md h3,
+.md h4,
+.md h5,
+.md h6 {
+  color: var(--element8);
+}
+
+.md blockquote {
+  padding: 8px 20px;
+  border-left: 5px solid var(--element6);
+  margin-left: 0;
+}
+
+.md code {
+  background-color: var(--element7);
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 5px;
+}

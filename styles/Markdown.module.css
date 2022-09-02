@@ -1,0 +1,13 @@
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--element3);
+}
+
+.date {
+  font-size: 15px;
+  color: var(--element4);
+  transition: 0.3s;
+  margin: 5px 0;
+  text-align: end;
+}

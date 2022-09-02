@@ -54,6 +54,9 @@ html.dark {
   --element3: #000000;
   --element4: #aaaaaa;
   --element5: #888888;
+  --element6: #e0e0e0;
+  --element7: #eeeeee;
+  --element8: #000000;
   --elementInverse: #eee;
   --primary: #01408e;
   --secondary: #3c5d5c;
@@ -67,9 +70,12 @@ html.dark {
   --surface3: #121212;
   --element1: #d5d5d5;
   --element2: #cccccc;
-  --element3: #e6e6e6;
+  --element3: #ffffff;
   --element4: #eaeaea;
   --element5: #e1e1e1;
+  --element6: #333333;
+  --element7: #555555;
+  --element8: #eeeeee;
   --elementInverse: #111;
   --primary: #8fceff;
   --secondary: #72faca;
