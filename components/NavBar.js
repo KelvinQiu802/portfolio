@@ -1,7 +1,11 @@
 import styles from '../styles/Nav.module.css';
 import Link from 'next/link';
 
-const NavBar = () => {
+const NavBar = ({ setMode }) => {
+  const handleClick = () => {
+    setMode((prev) => (prev === 'light' ? 'dark' : 'light'));
+  };
+
   return (
     <div className={styles.container}>
       <Link href='/'>
@@ -53,7 +57,9 @@ const NavBar = () => {
         >
           &#xe66d;
         </a>
-        <span className={`iconfont ${styles.icon}`}>&#xe635;</span>
+        <span className={`iconfont ${styles.icon}`} onClick={handleClick}>
+          &#xe635;
+        </span>
       </nav>
     </div>
   );
