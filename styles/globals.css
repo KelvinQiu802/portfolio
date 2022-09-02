@@ -47,6 +47,7 @@ html {
   min-width: 100vw;
   min-height: 100vh;
   background-color: var(--surface3);
+  transition: background-color 0.2s, color 0.2s;
 }
 
 /* Light Mode */
@@ -67,14 +68,14 @@ html {
 
 /* Dark Mode */
 .layout[color-mode='dark'] {
-  --surface1: #262626;
+  --surface1: #ebebeb;
   --surface2: #333333;
-  --surface3: #404040;
-  --element1: #eeeeee;
-  --element2: #dddddd;
-  --element3: #cccccc;
-  --element4: #aaaaaa;
-  --element5: #888888;
+  --surface3: #121212;
+  --element1: #bbbbbb;
+  --element2: #adadad;
+  --element3: #bfbfbf;
+  --element4: #dddddd;
+  --element5: #cfcfcf;
   --elementInverse: #111;
   --primary: #8fceff;
   --secondary: #72faca;
