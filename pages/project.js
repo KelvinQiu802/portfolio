@@ -1,10 +1,14 @@
 import Wrapper from '../components/Wrapper';
 import styles from '../styles/Project.module.css';
 import Item from '../components/Project/Item';
+import Head from 'next/head';
 
 const Project = () => {
   return (
     <Wrapper>
+      <Head>
+        <title>My Projects</title>
+      </Head>
       <div className={styles.container}>
         <p className={styles.title}>Projects</p>
         <div className={styles.list}>
