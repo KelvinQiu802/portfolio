@@ -5,6 +5,12 @@ import React from 'react';
 const Layout = ({ children }) => {
   const [mode, setMode] = React.useState('light');
 
+  React.useEffect(() => {
+    if (localStorage.getItem('mode')) {
+      setMode(localStorage.getItem('mode'));
+    }
+  }, []);
+
   return (
     <div className='layout' color-mode={mode}>
       <Head>
@@ -16,7 +22,7 @@ const Layout = ({ children }) => {
         />
       </Head>
       <main>
-        <NavBar setMode={setMode} />
+        <NavBar setMode={setMode} mode={mode} />
         {children}
       </main>
     </div>

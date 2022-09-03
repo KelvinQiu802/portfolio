@@ -1,12 +1,21 @@
 import styles from '../styles/Nav.module.css';
 import Link from 'next/link';
+import React from 'react';
 
-const NavBar = ({ setMode }) => {
+const NavBar = ({ setMode, mode }) => {
   const handleClick = () => {
     setMode((prev) => (prev === 'light' ? 'dark' : 'light'));
-    // toggle HTML theme
-    document.documentElement.classList.toggle('dark');
+    localStorage.setItem('mode', mode === 'light' ? 'dark' : 'light');
   };
+
+  React.useEffect(() => {
+    // toggle HTML theme
+    if (mode === 'light') {
+      document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
+    }
+  }, [mode]);
 
   return (
     <div className={styles.container}>
