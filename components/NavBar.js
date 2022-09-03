@@ -34,11 +34,6 @@ const NavBar = ({ setMode, mode }) => {
             &#xe650;
           </span>
         </Link>
-        <Link href='/'>
-          <span className={`iconfont ${styles.mobile} ${styles.icon}`}>
-            &#xe54d;
-          </span>
-        </Link>
 
         {/* Laptop Link */}
         <Link href='/'>
@@ -49,9 +44,6 @@ const NavBar = ({ setMode, mode }) => {
         </Link>
         <Link href='/'>
           <a className={`${styles.link} ${styles.laptop}`}>Projects</a>
-        </Link>
-        <Link href='/'>
-          <a className={`${styles.link} ${styles.laptop}`}>Videos</a>
         </Link>
 
         {/* Other Icon */}
