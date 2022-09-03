@@ -1,3 +1,21 @@
 .footer {
   text-align: end;
+  margin: 60px 0;
+  color: var(--element8);
+  font-size: 14px;
+}
+
+.cc {
+  margin-bottom: 2px;
+}
+
+.cc a {
+  text-decoration: underline;
+  text-decoration-color: var(--element8);
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    text-align: center;
+  }
 }

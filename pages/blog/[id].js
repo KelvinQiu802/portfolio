@@ -3,6 +3,7 @@ import Wrapper from '../../components/Wrapper';
 import { getAllIds, getPostById } from '../../utils/postTools';
 import styles from '../../styles/Markdown.module.css';
 import Cd from '../../components/Cd';
+import Footer from '../../components/Footer';
 
 const Post = ({ data }) => {
   return (
@@ -16,6 +17,7 @@ const Post = ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: data.htmlContent }} />
       </article>
       <Cd />
+      <Footer />
     </Wrapper>
   );
 };

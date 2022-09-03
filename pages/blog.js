@@ -1,15 +1,18 @@
 import Content from '../components/Blog/Content';
 import Head from 'next/head';
+import Footer from '../components/Footer';
+import Wrapper from '../components/Wrapper';
 import { getSortedPostData } from '../utils/postTools';
 
 const blog = ({ posts }) => {
   return (
-    <div>
+    <Wrapper>
       <Head>
         <title>Kelvin&apos;s Blog</title>
       </Head>
       <Content posts={posts} />
-    </div>
+      <Footer />
+    </Wrapper>
   );
 };
 

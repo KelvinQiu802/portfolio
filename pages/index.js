@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Avatar from '../components/Home/Avatar';
 import Wrapper from '../components/Wrapper';
 import Content from '../components/Home/Content';
-import styles from '../styles/Home.module.css';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
       <Wrapper>
         <Avatar />
         <Content />
+        <Footer />
       </Wrapper>
     </div>
   );

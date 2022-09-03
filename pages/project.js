@@ -2,6 +2,7 @@ import Wrapper from '../components/Wrapper';
 import styles from '../styles/Project.module.css';
 import Item from '../components/Project/Item';
 import Head from 'next/head';
+import Footer from '../components/Footer';
 
 const Project = () => {
   return (
@@ -65,6 +66,7 @@ const Project = () => {
           />
         </div>
       </div>
+      <Footer />
     </Wrapper>
   );
 };
