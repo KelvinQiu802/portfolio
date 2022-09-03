@@ -9,6 +9,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 10px;
+  transition: 0.3s;
 }
 
 .icon {
@@ -45,6 +47,11 @@
   justify-content: space-between;
   padding: 10px;
   row-gap: 30px;
+}
+
+.item:hover {
+  background-color: var(--surface4);
+  border-radius: 10px;
 }
 
 .item:hover .icon {
