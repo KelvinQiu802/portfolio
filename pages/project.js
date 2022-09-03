@@ -28,7 +28,7 @@ const Project = () => {
           />
           <Item
             name='mini-redux'
-            description='用最简单的JavaScript实现Redux核心功能'
+            description='Use the most simple Javascript to implement Redux core functions.'
             icon='&#xe66c;'
             repo='https://github.com/KelvinQiu802/mini-redux'
           />
