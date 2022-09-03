@@ -25,6 +25,18 @@ const Project = () => {
           />
         </div>
         <p className={styles.title}>Demo</p>
+        <div className={styles.list}>
+          <Item
+            name='Battleship'
+            description='A Battleship Game on Web with React.'
+            icon='&#xe928;'
+          />
+          <Item
+            name='Battleship'
+            description='A Battleship Game on Web with React.'
+            icon='&#xe928;'
+          />
+        </div>
       </div>
     </Wrapper>
   );
