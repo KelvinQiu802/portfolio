@@ -29,7 +29,7 @@ const NavBar = ({ setMode, mode }) => {
             &#xe634;
           </span>
         </Link>
-        <Link href='/'>
+        <Link href='/project'>
           <span className={`iconfont ${styles.mobile} ${styles.icon}`}>
             &#xe650;
           </span>
@@ -42,7 +42,7 @@ const NavBar = ({ setMode, mode }) => {
         <Link href='/blog'>
           <a className={`${styles.link} ${styles.laptop}`}>Blog</a>
         </Link>
-        <Link href='/'>
+        <Link href='/project'>
           <a className={`${styles.link} ${styles.laptop}`}>Projects</a>
         </Link>
 

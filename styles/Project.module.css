@@ -1,0 +1,60 @@
+.title {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: var(--element3);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--element8);
+  transition: color 0.3s;
+}
+
+.name {
+  font-size: 21px;
+  color: var(--element2);
+  transition: color 0.3s;
+}
+
+.description {
+  font-size: 13px;
+  width: 200px;
+  color: var(--element1);
+  transition: color 0.3s;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 2px;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  row-gap: 30px;
+}
+
+.item:hover .icon {
+  color: var(--element9);
+}
+
+.item:hover .name {
+  color: var(--element3);
+}
+
+.item:hover .description {
+  color: var(--element3);
+}

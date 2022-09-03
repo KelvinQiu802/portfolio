@@ -56,7 +56,8 @@ html.dark {
   --element5: #888888;
   --element6: #e0e0e0;
   --element7: #eeeeee;
-  --element8: #000000;
+  --element8: #b3b3b3;
+  --element9: #918f8f;
   --hljs0: #f3f3f3;
   --hljs1: #444444;
   --hljs2: #697070;
@@ -84,6 +85,8 @@ html.dark {
   --element5: #e1e1e1;
   --element6: #333333;
   --element7: #555555;
+  --element8: #8e8c8c;
+  --element9: #cac6c6;
   --hljs0: #333333;
   --hljs1: #d0d0d0;
   --hljs2: #c3c6c6;
@@ -93,7 +96,6 @@ html.dark {
   --hljs6: #ddbbbb;
   --hljs7: #b6c6a5;
   --hljs9: #b8d2e0;
-  --element8: #eeeeee;
   --elementInverse: #111;
   --primary: #8fceff;
   --secondary: #72faca;
