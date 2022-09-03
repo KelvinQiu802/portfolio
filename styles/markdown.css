@@ -67,3 +67,8 @@
 .md td {
   border-top: 1px solid var(--element2);
 }
+
+.md a {
+  text-decoration: underline;
+  text-decoration-color: var(--element1);
+}
