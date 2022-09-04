@@ -21,6 +21,11 @@ const Layout = ({ children }) => {
           href='https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@300;400;500;600&display=swap'
           rel='stylesheet'
         />
+        <meta
+          name='description'
+          content='My portfolio website contains blogs and projects.'
+          key='desc'
+        />
       </Head>
       <main>
         <NavBar setMode={setMode} mode={mode} />
