@@ -26,6 +26,12 @@ const Project = () => {
             repo='https://github.com/KelvinQiu802/kanban-react'
           />
           <Item
+            name='react-dnd-playground'
+            description='React drag and drop examples playground.'
+            icon='&#xe704;'
+            repo='https://github.com/KelvinQiu802/react-dnd-playground'
+          />
+          <Item
             name='micro-react'
             description='A micro React that implements React core concepts.'
             icon='&#xe64b;'
