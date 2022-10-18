@@ -44,6 +44,12 @@ const Project = () => {
             repo='https://github.com/KelvinQiu802/mini-redux'
           />
           <Item
+            name='tiny-compiler'
+            description='A super tiny compiler (only 200 lines) and tutorial.'
+            icon='&#xe727;'
+            repo='https://github.com/KelvinQiu802/tiny-compiler'
+          />
+          <Item
             name='bookstore'
             description='A Book Searching Website using Google Book API.'
             icon='&#xe61f;'
