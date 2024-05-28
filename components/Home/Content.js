@@ -1,7 +1,7 @@
-import utilStyles from '../../styles/util.module.css';
-import styls from '../../styles/Content.module.css';
-import Divider from '../Divider';
 import Link from 'next/link';
+import styls from '../../styles/Content.module.css';
+import utilStyles from '../../styles/util.module.css';
+import Divider from '../Divider';
 
 const Content = () => {
   return (
@@ -14,11 +14,6 @@ const Content = () => {
           </span>
           , majoring in{' '}
           <span className={utilStyles.stress}>Software Engineering</span>.{' '}
-        </p>
-        <p>
-          The current focus is on the{' '}
-          <span className={utilStyles.stress}>front-end</span>, based on{' '}
-          <span className={utilStyles.stress}>React</span> ecosystem.
         </p>
         <p>
           I love <span className={utilStyles.stress}>cats</span>, but allergic
@@ -44,15 +39,13 @@ const Content = () => {
           </a>{' '}
           repository and an online demo.{' '}
         </p>
-        <p>Some of my projects: Battleship | mini-react | Kanban | YourCat</p>
       </article>
       <Divider />
       <article>
         <p>
           In my spare time, I like creating videos about programming. Not just
           tutorial, but also share some opinions and experience. You can find me
-          on <span className={utilStyles.stress}>哔哩哔哩</span> by searching
-          Dragonfly_Y or clicking{' '}
+          on <span className={utilStyles.stress}>哔哩哔哩</span> by clicking{' '}
           <a
             href='https://space.bilibili.com/38563775'
             rel='noreferrer'
