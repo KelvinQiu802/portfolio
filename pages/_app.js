@@ -1,6 +1,6 @@
+import Layout from '../components/Layout';
 import '../styles/globals.css';
 import '../styles/markdown.css';
-import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
