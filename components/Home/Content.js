@@ -16,11 +16,6 @@ const Content = () => {
           <span className={utilStyles.stress}>Software Engineering</span>.{' '}
         </p>
         <p>
-          The current focus is on the{' '}
-          <span className={utilStyles.stress}>front-end</span>, based on{' '}
-          <span className={utilStyles.stress}>React</span> ecosystem.
-        </p>
-        <p>
           I love <span className={utilStyles.stress}>cats</span>, but allergic
           to cats. 🐈
         </p>
