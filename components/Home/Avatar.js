@@ -1,6 +1,6 @@
-import styles from '../../styles/Avatar.module.css';
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
+import styles from '../../styles/Avatar.module.css';
 
 const Avatar = () => {
   const [index, setIndex] = React.useState(0);
@@ -26,12 +26,13 @@ const Avatar = () => {
         height={85}
         priority
         className={styles.avatar}
+        alt='Avatar'
       />
       <div className={styles.description}>
         <h1 className={styles.name} ref={ref} onTransitionEnd={handleEnd}>
           {words[index]}
         </h1>
-        <p className={styles.tag}>Front-End Developer / Sophomore / Beijing</p>
+        <p className={styles.tag}>Front-End Developer / Student / Beijing</p>
       </div>
     </div>
   );

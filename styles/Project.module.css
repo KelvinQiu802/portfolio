@@ -1,7 +1,7 @@
 .title {
-  font-size: 30px;
+  font-size: 21px;
   font-weight: 400;
-  margin: 20px 0;
+  margin-bottom: 10px;
   color: var(--element3);
 }
 
@@ -14,13 +14,13 @@
 }
 
 .icon {
-  font-size: 40px;
   color: var(--element8);
+  scale: 1.5;
   transition: color 0.3s;
 }
 
 .name {
-  font-size: 21px;
+  font-size: 18px;
   color: var(--element2);
   transition: color 0.3s;
 }
@@ -46,7 +46,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
-  row-gap: 30px;
+  row-gap: 20px;
 }
 
 .item:hover {

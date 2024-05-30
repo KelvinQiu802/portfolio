@@ -8,7 +8,7 @@ const Content = () => {
     <div className={`${styls.content} ${utilStyles.plain}`}>
       <article>
         <p>
-          Hi, I&apos;m Kelvin, a sophomore at{' '}
+          Hi, I&apos;m Kelvin, a student at{' '}
           <span className={utilStyles.stress}>
             Beijing University of Technology
           </span>
@@ -28,7 +28,7 @@ const Content = () => {
           <Link href='/'>
             <a className={utilStyles.textLink}>projects</a>
           </Link>{' '}
-          projects page, I will show you all of my projects with a{' '}
+          projects page, I will show you my projects with a{' '}
           <a
             href='https://github.com/kelvinqiu802'
             className={utilStyles.textLink}
@@ -45,7 +45,8 @@ const Content = () => {
         <p>
           In my spare time, I like creating videos about programming. Not just
           tutorial, but also share some opinions and experience. You can find me
-          on <span className={utilStyles.stress}>哔哩哔哩</span> by clicking{' '}
+          on <span className={utilStyles.stress}>哔哩哔哩</span> by searching
+          MiuMiu8802 or clicking{' '}
           <a
             href='https://space.bilibili.com/38563775'
             rel='noreferrer'

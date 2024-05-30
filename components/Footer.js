@@ -11,7 +11,7 @@ const Footer = () => {
         >
           CC BY-NC-SA 4.0
         </a>{' '}
-        © Yang Qiu
+        © Kelvin Qiu
       </p>
       <a href='https://beian.miit.gov.cn/' rel='noreferrer' target='_blank'>
         京ICP备2022001803号
