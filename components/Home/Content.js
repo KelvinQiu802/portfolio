@@ -1,14 +1,14 @@
-import utilStyles from '../../styles/util.module.css';
-import styls from '../../styles/Content.module.css';
-import Divider from '../Divider';
 import Link from 'next/link';
+import styls from '../../styles/Content.module.css';
+import utilStyles from '../../styles/util.module.css';
+import Divider from '../Divider';
 
 const Content = () => {
   return (
     <div className={`${styls.content} ${utilStyles.plain}`}>
       <article>
         <p>
-          Hi, I&apos;m Kelvin, a sophomore at{' '}
+          Hi, I&apos;m Kelvin, a student at{' '}
           <span className={utilStyles.stress}>
             Beijing University of Technology
           </span>
@@ -33,7 +33,7 @@ const Content = () => {
           <Link href='/'>
             <a className={utilStyles.textLink}>projects</a>
           </Link>{' '}
-          projects page, I will show you all of my projects with a{' '}
+          projects page, I will show you my projects with a{' '}
           <a
             href='https://github.com/kelvinqiu802'
             className={utilStyles.textLink}
@@ -44,7 +44,6 @@ const Content = () => {
           </a>{' '}
           repository and an online demo.{' '}
         </p>
-        <p>Some of my projects: Battleship | mini-react | Kanban | YourCat</p>
       </article>
       <Divider />
       <article>
@@ -52,7 +51,7 @@ const Content = () => {
           In my spare time, I like creating videos about programming. Not just
           tutorial, but also share some opinions and experience. You can find me
           on <span className={utilStyles.stress}>哔哩哔哩</span> by searching
-          Dragonfly_Y or clicking{' '}
+          MiuMiu8802 or clicking{' '}
           <a
             href='https://space.bilibili.com/38563775'
             rel='noreferrer'
