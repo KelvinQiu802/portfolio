@@ -39,7 +39,7 @@ const Project = () => {
           </Item>
           <Item
             name='landscape'
-            description='A pomodoro timer with video background'
+            description='A pomodoro timer with video background.'
             repo='https://github.com/KelvinQiu802/landscape'
           >
             <MountainSnow className={styles.icon} />
