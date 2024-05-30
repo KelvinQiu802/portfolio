@@ -1,10 +1,10 @@
 import styles from '../../styles/Project.module.css';
 
-const Item = ({ name, description, icon, repo }) => {
+const Item = ({ name, description, repo, children }) => {
   return (
     <a href={repo} rel='noreferrer' target='_blank'>
       <div className={styles.item}>
-        <span className={`iconfont ${styles.icon}`}>{icon}</span>
+        {children}
         <div className={styles.info}>
           <p className={styles.name}>{name}</p>
           <p className={styles.description}>{description}</p>
